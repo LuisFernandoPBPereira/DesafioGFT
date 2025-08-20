@@ -1,0 +1,27 @@
+Contexto: Preciso criar um sistema de Pedidos em C#
+
+Classes, propriedades e métodos para a aplicação:
+
+- Classe Produto:
+
+	Propriedades:
+
+	- Nome -> string
+	- Preco -> decimal
+	- Categoria -> string
+
+- Classe Pedido:
+	
+	Propriedades:
+
+	- Lista de objetos da classe "Produto" chamada "Produtos"
+	
+	Métodos:
+
+	- CalcularValorTotal() -> 
+		- devolve um valor do tipo "decimal" com o total somado do preço dos produtos
+		- caso o valor passe de R$100,00, é preciso aplicar um desconto de 10% no valor final
+
+	- AdicionarProdutoAoPedido() -> adiciona objetos na lista "Produtos"
+	- ExibirResumoDoPedido() -> exibe os produtos com suas respectivas propriedades e o valor total
+
